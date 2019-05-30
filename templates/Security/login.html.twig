@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title 'Agence Immobilière Plazza' %}
+
+{% block body %}
+<div class="container mt-4">
+    {% if error %}
+        <div class="alert-danger">
+            {{ error.messageKey |trans(error.messageData, 'security') }}
+        </div>
+    {% endif %}
+    <form action="{{ path('login') }}" method="post">
+        <form-group>
+            <label for="username">Nom d'utilisateur</label>
+            <input type="text" id="username" name="_username" class="form-control" value="{{ lastusername }}">
+        </form-group>
+        <form-group>
+            <label for="password">Mot de passe</label>
+            <input type="text" id="password" name="_password" class="form-control">
+        </form-group>
+        <button type="submit" class="btn btn-primary">Se connecter</button>
+    </form>
+</div>
+{% endblock %}
