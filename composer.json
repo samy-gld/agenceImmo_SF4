@@ -8,6 +8,7 @@
         "cocur/slugify": "^3.2",
         "fzaninotto/faker": "^1.8",
         "knplabs/knp-paginator-bundle": "^3.0",
+        "liip/imagine-bundle": "^2.1",
         "sensio/framework-extra-bundle": "^5.1",
         "symfony/asset": "4.2.*",
         "symfony/console": "4.2.*",
@@ -26,7 +27,8 @@
         "symfony/twig-bundle": "4.2.*",
         "symfony/validator": "4.2.*",
         "symfony/web-link": "4.2.*",
-        "symfony/yaml": "4.2.*"
+        "symfony/yaml": "4.2.*",
+        "vich/uploader-bundle": "^1.9"
     },
     "require-dev": {
         "doctrine/doctrine-fixtures-bundle": "^3.1",
