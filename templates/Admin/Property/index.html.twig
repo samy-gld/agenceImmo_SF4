@@ -10,6 +10,12 @@
             {{ message }}
         </div>
     {% endfor %}
+
+    {% if not form.vars.valid %}
+        <div class="alert alert-danger">
+            Attention, les champs du formulaire n'ont pas été correctement remplis
+        </div>
+    {% endif %}
     <table class="table table-striped">
         <thead>
         <tr>
