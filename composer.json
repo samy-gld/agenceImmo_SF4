@@ -27,7 +27,9 @@
         "symfony/twig-bundle": "4.2.*",
         "symfony/validator": "4.2.*",
         "symfony/web-link": "4.2.*",
+        "symfony/webpack-encore-bundle": "^1.6",
         "symfony/yaml": "4.2.*",
+        "twig/cache-extension": "^1.4@dev",
         "vich/uploader-bundle": "^1.9"
     },
     "require-dev": {
